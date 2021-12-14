@@ -14,7 +14,6 @@ const App = () => {
     name === "good" && setGood((prevState) => prevState + 1);
     name === "neutral" && setNeutral((prevState) => prevState + 1);
     name === "bad" && setBad((prevState) => prevState + 1);
-    // this.setState((prevState) => ({ [name]: prevState[name] + 1 }));
   };
 
   const countTotalFeedback = () => {
